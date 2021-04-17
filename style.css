@@ -187,3 +187,82 @@ header{
   float: right;
 }
 
+
+.top-image{
+  height: 100%;
+  width: 100%;
+}
+
+.top-wrapper{
+  height: 900px;
+}
+
+.top-wrapper p{
+  font-size: 27px;
+  color: #777777;
+  padding-top: 90px;
+}
+
+
+.main-wrapper{
+  height: 1440px;
+}
+
+.date{
+  float: left;
+  margin-right: 220px;
+  font-size: 16.8px;
+  color: #999;
+  opacity: 0.5;
+}
+
+.date:hover{
+  opacity: 1;
+}
+
+.textarea{
+  width: 700px;
+  display: inline-block;
+}
+
+.text-box{
+  padding-bottom: 60px;
+}
+
+.text-heading{
+  color: #111111;
+  font-size:22.4px;
+  padding-bottom: 20px;
+}
+
+.text-heading a:hover{
+  color: #C49029;
+}
+
+.text{
+  font-size: 16.8px;
+}
+
+.page-list li{
+  float: left;
+  font-size: 16.8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px 18px;
+  margin-left: 6px;
+  opacity: 0.5;
+}
+
+.page-list li:hover{
+  opacity: 1;
+}
+
+.page-list{
+  margin-left: 320px;
+}
+
+.page-list .this{
+  background-color: #EEEEEE;
+  color: #333333;
+  opacity: 1;
+}
