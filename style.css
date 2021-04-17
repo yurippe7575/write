@@ -205,7 +205,12 @@ header{
 
 
 .main-wrapper{
-  height: 1440px;
+  height: 1660px;
+}
+
+.main-wrapper .container{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 150px;
 }
 
 .date{
@@ -258,7 +263,7 @@ header{
 }
 
 .page-list{
-  margin-left: 320px;
+  margin-left: 430px;
 }
 
 .page-list .this{
@@ -266,3 +271,85 @@ header{
   color: #333333;
   opacity: 1;
 }
+
+
+.profile-wrapper{
+  height: 460px;
+}
+.profile-wrapper .container{
+  border-bottom: 1px solid #ccc;
+  height: 380px;
+}
+
+.photo{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+.profile{
+  width: 300px;
+  float: left;
+}
+
+.profile-text{
+  color: #666;
+  font-size: 16.8px;
+  width: 260px;
+}
+
+.profile-heading{
+  font-size: 19px;
+  padding:40px 0 40px 20px;
+  display: inline-block;
+}
+
+.sub{
+  float:left;
+  width: 210px;
+  margin-left: 35px;
+}
+.sub-heading{
+  font-size: 14.4px;
+  padding-bottom: 35px;
+}
+
+.sub-text{
+  font-size: 15.8px;
+  color: #666666;
+}
+
+.sub li a{
+  font-size: 16.9px;
+  color: #666;
+  text-decoration: underline;
+}
+
+.sub li a:hover{
+  color: #c49029;
+}
+
+sub1 p{
+  padding-bottom: 10px;
+  font-size: 14.4px;
+  color: #666;
+}
+
+.sub2 li{
+  padding-bottom: 10px;
+}
+
+.sub-input{
+  margin-top: 85px;
+  height:40px;
+  width: 220px;
+  border: 1px solid #e0e0e0;
+}
+
+::placeholder{
+  padding-left: 5px;
+  color: #777777;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
