@@ -353,3 +353,11 @@ sub1 p{
   font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 
+footer{
+  height: 115px;
+}
+
+.footer-logo{
+  text-align: center;
+  font-size: 15.8px
+}
